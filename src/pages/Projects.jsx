@@ -44,11 +44,11 @@ export default function Projects() {
                 Projects
             </h2>
 
-            <div className="flex flex-wrap gap-20 justify-center mt-28">
+            <div className="flex flex-col items-center md:flex-row  gap-20 justify-center mt-28">
                 {projects.map((project, index) => (
                     <div
                         key={index}
-                        className="w-[35vw] bg-white dark:bg-gray-900 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300"
+                        className="w-[70vw] md:w-[35vw] bg-white dark:bg-gray-900 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300"
                     >
                         {/* Project Image */}
                         <a href={project.link} target="_blank" rel="noopener noreferrer">
@@ -73,6 +73,11 @@ export default function Projects() {
                     </div>
                 ))}
             </div>
+            <footer className="w-full text-center py-6 border-t border-gray-300 dark:border-gray-700 mt-10">
+                <p className="text-gray-600 dark:text-gray-400">
+                    © 2025 Parth Vaish. All Rights Reserved.
+                </p>
+            </footer>
         </div>
     );
 }

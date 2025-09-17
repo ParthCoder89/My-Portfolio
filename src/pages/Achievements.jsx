@@ -2,17 +2,17 @@ export default function Achievements() {
     return (
         <div className="relative p-10 bg-lightBg dark:bg-black min-h-screen flex flex-col items-center justify-center">
             {/* Background Large Text */}
-            <h1 className="absolute text-6xl md:text-9xl font-extrabold text-green-400/20 select-none mb-96">
+            <h1 className="relative top-4 text-5xl md:text-7xl font-extrabold text-green-400/20 select-none ">
                 ACHIEVEMENTS
             </h1>
 
             {/* Foreground Heading */}
-            <h2 className="absolute text-4xl font-bold text-green-600 dark:text-green-400 mb-96">
+            <h2 className="relative top-2 text-3xl md:text-5xl font-bold text-green-600 dark:text-green-400">
                 Achievements
             </h2>
 
             {/* Achievements List */}
-            <ul className="relative space-y-4 text-lg text-gray-700 dark:text-gray-300 mt-20 ">
+            <ul className=" space-y-4 text-lg text-gray-700 dark:text-gray-300 mt-12 md:mt-10 ">
                 <li className="hover:text-green-600 dark:hover:text-green-400 transition">
                     <span className="font-bold">Secured Top 10 position</span> in the Internal Hackathon by solving the problem of Real-Time Public Transport Tracking for small cities using IoT sensors (ESP32, GPS, FSR).
                 </li>
@@ -27,6 +27,11 @@ export default function Achievements() {
                 </li>
 
             </ul>
+            <footer className="w-full text-center py-6 border-t border-gray-300 dark:border-gray-700 mt-10">
+                <p className="text-gray-600 dark:text-gray-400">
+                    © 2025 Parth Vaish. All Rights Reserved.
+                </p>
+            </footer>
         </div>
     );
 }

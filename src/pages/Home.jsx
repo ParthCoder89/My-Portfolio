@@ -52,7 +52,7 @@ export default function Home() {
             {/* Buttons */}
             <div className="flex space-x-6">
                 <a
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/parth-vaish-46b51533a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-6 py-3 bg-blue-600 text-white rounded-xl shadow-lg hover:bg-blue-700 transition"
@@ -60,7 +60,7 @@ export default function Home() {
                     LinkedIn
                 </a>
                 <a
-                    href="https://github.com"
+                    href="https://github.com/ParthCoder89"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-6 py-3 bg-gray-800 text-white rounded-xl shadow-lg hover:bg-gray-900 transition"
@@ -68,6 +68,11 @@ export default function Home() {
                     GitHub
                 </a>
             </div>
+            <footer className="w-full text-center py-6 border-t border-gray-300 dark:border-gray-700 mt-10">
+                <p className="text-gray-600 dark:text-gray-400">
+                    © 2025 Parth Vaish. All Rights Reserved.
+                </p>
+            </footer>
         </div>
     );
 }

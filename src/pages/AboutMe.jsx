@@ -92,6 +92,11 @@ export default function AboutMe() {
                     </div>
                 </div>
             </div>
+            <footer className="w-full text-center py-6 border-t border-gray-300 dark:border-gray-700 mt-10">
+                <p className="text-gray-600 dark:text-gray-400">
+                    © 2025 Parth Vaish. All Rights Reserved.
+                </p>
+            </footer>
         </div>
     );
 }
