@@ -27,7 +27,7 @@ const projects = [
     {
         name: "My Portfolio Website",
         image: Portfolio,
-        link: "https://your-evproject-link.com",
+        link: "https://parth89portfolio.netlify.app/",
         description:
             "Many students and aspiring developers face the challenge of presenting their projects, skills, and achievements in a professional and interactive way. A well-organized portfolio helps showcase capabilities, experience, and personal branding, but building one can be time-consuming and technically challenging. To solve this, I created a responsive Portfolio Website using React, Vite, and TailwindCSS that features multiple sections including Home, About Me, Skills, Achievements, Projects, and Contact. This solution effectively highlights my skills, projects, and accomplishments, providing a polished digital presence for potential recruiters or collaborators.",
     },
